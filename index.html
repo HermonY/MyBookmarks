@@ -3,7 +3,10 @@
 <head>
 	<title>My Bookmarks</title>
 	<meta charset='utf-8' />
-	<link rel='stylesheet' type='text/css' href='normalize.css'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' />
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' />
+	<link rel='stylesheet' href='normalize.css' />
+	<link rel='stylesheet' href='main.css' />
 </head>
 <body>
 <header class='hero'>
@@ -15,82 +18,85 @@
 	<div class='container'>
 	<ol class='news'>
 		<li class='news-item'>
-			<a class='news-link' href="#">frontend design</a>
+			<a class='news-link' href='#'>frontend design</a>
 			<ul class='news-meta'>
 				<li class='news-meta-item'>
 				<em>Posted by:</em>
-					<a href="#">Dan Denney</a>
+					<a href='#'>Dan Denney</a>
 				</li>
-				<li>
-					<a href="#">2 comments</a>
+				<li class='news-meta-item'>
+					<a href='#'>2 comments</a>
 				</li>
-				<li>
-					<a href="#">like this story!</a>
+				<li class='news-meta-item'>
+					<a class='js-like' href='#'>like this story!</a>
+					<!-- 'js-like'. adding a class for jquery purposes -so not to be used for CSS -->
 				</li>
 			</ul>
 		</li>
 		<li class='news-item'>
-			<a class='news-link' href="#">Getting ready for http/</a>
+			<a class='news-link' href='#'>Getting ready for http/2</a>
 			<ul class='news-meta'>
 				<li class='news-meta-item'>
 				<em>Posted by:</em>
-					<a href="#">Jon Friskics</a>
+					<a href='#'>Jon Friskics</a>
 				</li>
-				<li>
-					<a href="#">2 comments</a>
+				<li class='news-meta-item'>
+					<a href='#'>2 comments</a>
 				</li>
-				<li>
-					<a href="#">like this story!</a>
+				<li class='news-meta-item'>
+					<a class='js-like' href='#'>like this story!</a>
 				</li>
 			</ul>
 		</li>
 		<li class='news-item'>
-			<a class='news-link' href="#">managing typography on large apps</a>
+			<a class='news-link' href='#'>managing typography on large apps</a>
 			<ul class='news-meta'>
 				<li class='news-meta-item'>
 				<em>Posted by:</em>
-					<a href="#">John D. Jameson</a>
+					<a href='#'>John D. Jameson</a>
 				</li>
-				<li>
-					<a href="#">2 comments</a>
+				<li class='news-meta-item'>
+					<a href='#'>2 comments</a>
 				</li>
-				<li>
-					<a href="#">like this story!</a>
+				<li class='news-meta-item'>
+					<a href='#'>like this story!</a>
 				</li>
 			</ul>
 		</li>
 		<li class='news-item'>
-			<a class='news-link' href="#">estimating a front end web dev job</a>
+			<a class='news-link' href='#'>estimating a front end web dev job</a>
 			<ul class='news-meta'>
 				<li class='news-meta-item'>
 				<em>Posted by:</em>
-					<a href="#">Jordan Wade</a>
+					<a href='#'>Jordan Wade</a>
 				</li>
-				<li>
-					<a href="#">2 comments</a>
+				<li class='news-meta-item'>
+					<a href='#'>2 comments</a>
 				</li>
-				<li>
-					<a href="#">like this story!</a>
+				<li class='news-meta-item'>
+					<a href='#'>like this story!</a>
 				</li>
 			</ul>
 		</li>
 		<li class='news-item'>
-			<a class='news-link' href="#">the one css feature i really want</a>
+			<a class='news-link' href='#'>the one css feature i really want</a>
 			<ul class='news-meta'>
 				<li class='news-meta-item'>
 				<em>Posted by:</em>
-					<a href="#">Jean Kaluza</a>
+					<a href='#'>Jean Kaluza</a>
 				</li>
-				<li>
-					<a href="#">2 comments</a>
+				<li class='news-meta-item'>
+					<a href='#'>2 comments</a>
 				</li>
-				<li>
-					<a href="#">like this story!</a>
+				<li class='news-meta-item'>
+					<a href='#'>like this story!</a>
 				</li>
 			</ul>
 		</li>
 	</ol>
 	</div>
 </main>
+<script src='https://code.jquery.com/jquery-2.2.3.min.js'></script>
+<script src='app.js'></script>
 </body>
 </html>
